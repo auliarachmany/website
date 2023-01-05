@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulia Rachmany</title>
+
+    <link rel="shortcut icon" href="images/glowing-star_1f31f.png" type="image/x-icon">
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<!-- home section starts  --> 
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/aul foto.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#about">about</a>
+        <a href="#education">education</a>
+        <a href="#organitation">organitation</a>
+        <a href="#intership">intership</a>
+        <a href="#Porthfolio">Portfolio</a>
+        <a href="#competition">competition</a>
+        <a href="#certification">certification</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+   
+
+</header>
+
+<!-- header section ends -->
+<!-- home section ends -->
+
+
+<section class="about" id="about">
+
+    <div class="content">
+
+        <br>
+        <br> <br>
+        <h3>Hello, There!</h3>
+            <div class="animated-info">
+            <span class="content"><h3><open>I'm Aul</open><h3></span> 
+            <div class="word";>
+
+            </div>
+        </h3>
+        <p>A Bachelor Degree Animal Husbandry From Polytechnic Banyuwangi In 2022. <br> Have a great interst in a career Livestock Production, Quality Control and Data Analyst.</p>
+        <p>
+        <a href="#" class="btn">get my resume</a>
+    </div>
+</section>
+<!-- about section ends -->
+
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+   
+    <h1 class="heading"> <span>Education</span></h1>
+
+    <div class="row">
+        <div class="slides">
+            <div class="slide">
+              <img src="images/LAB 1.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="images/LAB 2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/Farm.jpg" alt="">
+              </div>
+            <div class="navigation">
+              <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
+              <a class = "next" onclick = "plusSlides(-1)">&#10095;</a>
+            </div>
+          </div>
+      
+          <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+      
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+      
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("slide");
+              if (n > slides.length)
+              {
+                slideIndex = 1;
+              }
+              if (n < 1)
+              {
+                slideIndex = slides.length
+              }
+              for (i = 0; i < slides.length; i++)
+              {
+                slides[i].style.display = "none";
+              }
+              slides[slideIndex-1].style.display = "block";
+            }
+          </script>
+
+        <div class="content">
+            <h3>Department of Animal Husbandry</h3>
+            <p>A Bachelor Degree of Animal Husbandry From Polytechnic Banyuwangi in 2022 with experience intership as a staff in production  laying hens at PT. Vega Nusa Agrita and CV. Wijoyo Farm with assignments handling and control production laying hens in farm.</p>
+            </p>
+            <a href="https://poliwangi.ac.id/d4-teknologi-pengolahan-hasil-ternak/" class="btn">learn more</a>
+        </div>
+
+
+    
+
+</section>
+<section class="organitation" id="organitation">
+
+    <h1 class="heading"> Organitation <span>and</span> Volunteer</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/quote-img2.png" alt="" class="quote">
+            <p>The Indonesian Knowledge Sharing Forum is an Indonesian-based Social Education organization, with central management in the city of Bandung. At present, the Indonesian knowledge-sharing forum has spread across 4 provinces in Indonesia, one of which is in the Banyuwangi district.</p>
+            <img src="images/fbii.png" class="user" alt="">
+            <h3>Forum Berbagi Ilmu Indonesia</h3>
+            
+            <div class="stars">
+            </div>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img2.png" alt="" class="quote">
+            <p>Program Hibah Desa Binaan (PHDB) is a Community empowerment activities are carried out by students through the Association of Similar Student Organizations (IOMS), Student Activity Units (UKM), and or Student Executive Boards (BEM). <br>  <br></p>
+            <img src="images/dikti 2.png" class="user" alt="">
+            <h3>Program Hibah Desa Binaan (PHDB)</h3>
+            <div class="stars">
+            </div>
+            <a href="https://medium.com/@mochtaraulia/batik-training-with-the-theme-of-written-batik-to-increase-the-productivity-of-the-batik-industry-a7c2be0db042" class="btn">read more</a>
+        </div>
+        
+        <div class="box">
+            <img src="images/quote-img2.png" alt="" class="quote">
+            <p>The association of livestock product processing technology is a student organization at the department level in a tertiary institution. <br> <br> <br> <br> </p>
+            <img src="images/tpht-removebg-preview.png" class="user" alt="">
+            <h3>Himpunan Jurusan TPHT</h3>
+            <div class="stars">
+            </div>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- menu section starts  -->
+
+
+<section class="intership" id="intership">
+
+    <h1 class="heading"> Intership <span>Program</span> </h1>
+    
+    <div class="accordion-bral">
+
+      
+        <div>
+          <!-- accordion item 3 -- start -->
+          <input class="ac-input" id="ac-3" name="accordion-1" type="checkbox" />
+          <label class="ac-label" for="ac-3">CV. WIJOYO FARM <i></i></label>
+          <div class="article ac-content">
+            <p> - Recording Hen Day Production (HDP) </br>
+                - Recording Uniformity </br>
+                - Recording Feed Intage and Feed Convertion Ratio (FCR)</br>
+                - Vaksinator </br>
+                - Blood Sampling Laying Hen </br>
+                - Grading Laying Hen </br></p>
+            <div>
+          </div>
+        </div>
+    
+        <!-- accordion item 3 -- end -->
+      
+        <div>
+          <!-- accordion item 4 -- start -->
+          <input class="ac-input" id="ac-4" name="accordion-1" type="checkbox" />
+          <label class="ac-label" for="ac-4">PT. VEGA NUSA AGRITA<i></i></label>
+          <div class="article ac-content">
+            <p> - Recording Hen Day Production (HDP) <br>
+                - Recording Uniformity <br>
+                - Vaksinator <br>
+                - Blood Sampling Laying Hen <br></p>
+              <div>
+              </div>
+            </div>
+          </div>
+        <!-- accordion item 4 -- end -->
+      
+      </div>
+
+</section>
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+
+
+
+<!-- review section starts  -->
+
+<!-- porthfolio section starts  -->
+
+<section class="Porthfolio" id="Porthfolio">
+
+    <h1 class="heading"> Portfolio <span>Design</span> </h1>
+
+    <div class="box-container">
+  
+        <div class="box">
+            <div class="card">
+               <div class="card">
+                 <div class="front">  
+                 <img src="images/bagus.jpg" height="370px" width="370px">
+               <img src="images/bagus.jpg"height="370px" width="370px">
+           </div>
+       </div>
+      </div>
+            <div class="content">
+                <a href="https://www.behance.net/gallery/160236653/Barong-Kemiren/modules/904079129" class="title">Tamasenta Vector Art </a>
+                <span>Corel Draw /Year Produced 2020</span>
+                <p>Tamasenta vector is a celebration of my friend's graduation.</p>
+                <a href="https://www.behance.net/gallery/160236653/Barong-Kemiren/modules/904079129" class="btn">read more</a>
+            </div>
+        </div>
+
+        
+        <div class="box">
+            <div class="card">
+               <div class="card">
+                 <div class="front">  
+                 <img src="images/barong.jpg" height="370px" width="370px">
+               <img src="images/barong 2.jpg"height="370px" width="370px">
+           </div>
+       </div>
+      </div>
+            <div class="content">
+                <a href="https://www.behance.net/gallery/160236653/Barong-Kemiren/modules/904079129" class="title">Stiker Design</a>
+                <span>Corel Draw / Year Produced 2020</span>
+                <p>Barong Ider Bumi is a traditional ceremony of the Osing people in Kemiren Village.</p>
+                <a href="https://www.behance.net/gallery/160236653/Barong-Kemiren/modules/904079129" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="card">
+               <div class="card">
+                 <div class="front">  
+                 <img src="images/DIPI.jpg" height="370px" width="370px">
+               <img src="images/DIPI2.jpg"height="370px" width="370px">
+           </div>
+       </div>
+      </div>
+            <div class="content">
+                <a href="https://www.behance.net/gallery/160250565/Robot-DIPI/modules/904160205" class="title">Character Design</a>
+                <span>Corel Draw / Year Produced 2019</span>
+                <p>Character Design Robot Artificial Intelegent Animal Husbandry.</p>
+                <a href="https://www.behance.net/gallery/160250565/Robot-DIPI/modules/904160205" class="btn">read more</a>
+            </div>
+        </div>
+
+        
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- review section ends -->
+<section class="competition" id="competition">
+
+    <h1 class="heading"> <span>competition</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/jagoan.jpeg" alt="">
+            </div>
+
+            <div class="content">
+                <div class="stars">
+                </div>
+                <div class="text"> <h3> Jagoan Digital <h3> </div> <br>
+                <div class="caption"> <p> Winner of Jagoan Digital Banyuwangi </p> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/BTC.jpeg" alt="">
+            </div>
+
+            <div class="content">
+                <div class="stars">
+                </div>
+                <div class="text"> <h3> BTC Competition <h/3></div> <br>
+                <div class="caption"> <p> Winner of Brango Technopreneur Challenge </p> </div>
+            </div>
+        </div>
+
+
+</section>
+
+<section class="certification" id="certification">
+    <h1 class="heading"> <span>certification</span> </h1>
+
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/BLK.png" alt="">
+            <h3>Web develop</h3>
+            <div class="description">
+                <p>Offline class web develop <br> <br></p></div>
+                <p> </p>
+            <a href="#" class="btn">view certificate</a>
+        </div>
+
+        <div class="box">
+            <img src="images/MySkill-Logo-1.png" alt="">
+            <h3>Web develop</h3>
+            <div class="description">
+                <p>Online class Frontend - HTML <br> <br></div>
+            <a href="https://storage.googleapis.com/myskill-v2-certificates/course-rFpmA76qlJMylKwbcgWJ/4IWq24LR4ScDsq43kPBqkbLP3NJ3-GTnFwb7st11i4DjHZSXp.pdf" class="btn">view certificate</a>
+        </div>
+
+        <div class="box">
+            <img src="images/MySkill-Logo-1.png" alt="">
+            <h3>Marketing Management</h3>
+            <div class="description">
+                <p>online class marketing management <br> <br></p></div>
+            <a href="https://storage.googleapis.com/myskill-v2-certificates/course-dgby7D65uOKsxapFyDAb/4IWq24LR4ScDsq43kPBqkbLP3NJ3-ULEisT2Ap46AdKZ2oO5D.pdf" class="btn">view certificate</a>
+        </div>
+
+        <div class="box">
+            <img src="images/kelas.jpg" alt="">
+            <h3>Data Analyst (SQL)</h3>
+            <div class="description">
+                <p>Online class data analyst for beginer with SQL</p></div>
+            <a href="https://kelas.work/certificate/issue/125789/77" class="btn">view certificate</a>
+        </div>
+
+        <div class="box">
+            <img src="images/logo ptcc.png" alt="">
+            <h3>Microsoft Office</h3>
+            <div class="description">
+                <p>Sertification Microsoft Office (word, excel and power point) <br> </div>
+            <a href="#" class="btn">view certificate</a>
+        </div>
+
+                <div class="box">
+            <img src="images/mindo-removebg-preview.png" alt="">
+            <h3>Food Packaging</h3>
+            <div class="description">
+                <p>Online class food packaging in food industry</p></div>
+            <a href="#" class="btn">view certificate</a>
+        </div>
+
+ 
+
+    </div>
+
+
+
+<!-- contact section starts  -->
+<br> <br> <br>
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="row">
+
+
+        <form action="">
+            <h1> Got a project in mind with me? </h1><br>
+            
+                <h2>I hear from your heart 🤍 <br> Please share your project in message and I’ll be in touch 🥰</h2> 
+<br>
+            <a href="https://t.me/auliamochtar" class="btn">let's talk</a>
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- footer section starts  -->
+<section class="footer">
+
+    <div class="share">
+        <a href="https://t.me/auliamochtar" class="fab fa-telegram"></a>
+        <a href="https://www.instagram.com/_aul_/" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/aulia-rachmany-m/"class="fab fa-linkedin"></a>
+        <a href="https://medium.com/@mochtaraulia/"class="fab fa-medium"></a>
+    </div>
+
+    <div class="links">
+        <a href="#about">about</a>
+        <a href="#education">education</a>
+        <a href="#organitation">organitation</a>
+        <a href="#intership">intership</a>
+        <a href="#Porthfolio">Porthfolio</a>
+        <a href="#sertification">certification</a>
+        <a href="#contact">contact</a>
+    </div>
+
+    <div class="credit">Banyuwangi <span>2022</span> | all rights reserved</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
